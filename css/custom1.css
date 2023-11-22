@@ -1,0 +1,244 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif ;
+}
+.top-header{
+	background-color: #3fbbc0;
+	color: #fff;
+	padding: 8px 0px;
+}
+.top-header h4{
+	font-size: 18px;
+	margin: 0;
+}
+header nav {
+	padding: 10px 0px;
+}
+header nav ul li a{
+  color: #6b6b6b !important;
+  padding: 20px 12px !important; 
+  transition: color 1s;
+  text-transform: uppercase;
+  font-size: 14px !important;
+}
+header nav ul li a:hover{
+	color:#3fbbc0 !important;
+}
+header nav .navbar-brand {
+	width: 21%;
+}
+header nav .navbar-brand img{
+	height: 44px;
+}
+header .btn-apointment{
+	background-color: #3fbbc0;
+	color: #fff;
+	padding-right: 20px;
+    padding-left: 20px;
+}
+
+.carousel-control-prev {
+	padding-left:15px; 
+}
+.carousel-control-next {
+	padding-right:15px; 
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color:rgba(63, 187, 192,0.4);
+	width:3.5rem;
+	height:3.5rem; 
+	border-radius:50%;
+	background-size:2rem;
+
+}
+.carousel-indicators [data-bs-target]{
+	width:14px; 
+	height: 14px;
+	border-radius:50%;
+}
+.carousel-indicators .active{
+	background-color:#3fbbc0;
+}
+.carousel-indicators{
+	margin-bottom:0.4rem;
+}
+.carousel-item-container {
+	height:670px;
+	position:relative;
+}
+.carousel-item-container img{
+	position:absolute;
+	z-index:1; 
+}
+.carousel-item-container .slider-content{
+	position:absolute;
+	z-index:2;
+	bottom: 50px;
+	width:88%;
+	background-color:rgba(255,255,255,0.9);
+	border-top:3px solid #3fbbc0;
+	left:6%;
+	padding:40px 20px; 
+	text-align: center;
+}
+.carousel-item-container .slider-content p{
+	margin: 20px 0px; 
+}
+.carousel-item-container .slider-content button{
+  background-color:#3fbbc0;
+  border:none;
+  padding:8px 30px;
+  color:#fff;
+  border-radius:4px;
+}
+.servcies_section{
+	margin-top:50px;
+}
+.servcies_section .box{
+	padding:20px;
+	box-shadow:0px 0px 40px #dfdfdf;
+	border-radius: 0.5rem;;
+}
+.servcies_section .box .fas{
+	font-size:3rem; 
+	color:#3fbbc0;
+}
+.servcies_section .box h5{
+	margin:15px 0px;
+}
+
+
+
+
+
+.key_features{
+	margin-top:80px;
+}
+.key_features .feature-item .icon span{
+	font-size:2.5rem;
+	color:#3fbbc0;
+}
+.key_features .feature-item .icon,.key_features .feature-item .feature-content{
+	padding:3px 10px;
+}
+.khadamat_sec{
+	margin-top:60px; 
+}
+.khadamat_sec .khadatmat_title{
+	text-align:center;
+}
+.khadamat_sec .khadatmat_title:after{
+	content:"";
+	width:80px; 
+	height:3px;
+	background-color: #3fbbc0;
+	display:block;
+	margin:15px auto 25px;
+	
+}.appointment{
+	margin-top: 60px;
+}
+.col-lg-4 .fas{
+	font-size: 2.3rem;
+	padding: 1.4rem;
+	border-radius:50%;
+	box-shadow:0px 0px 30px hsla(0, 0%, 70%, 0.86);
+color: #3fbbc0;
+margin: 0.6rem;
+margin-bottom: 1.2rem;
+}.row .col-lg-4 h5{
+	text-align: center;
+}.row .col-lg-4 h5 .p{
+	text-align: center;
+}
+
+.row .col-lg-4 h5:after{
+	content:"";
+	width:50px; 
+	height:2px;
+	background-color: #3fbbc0;
+	display:block;
+margin: 15px auto 15px;
+}.appointment{
+	background-color:hsl(180deg, 65%, 98%);
+	
+}.appointment .container .title{
+	text-align: center;
+	margin-top: 50px;
+}.appointment .container .title:after{
+	content:"";
+	width:50px; 
+	height:2px;
+	background-color: #3fbbc0;
+	display:block;
+margin: 15px auto 15px;	
+}
+
+.row .col-lg-12 .btn{
+	background-color:#3fbbc0;
+	padding:10px 40px;
+	border-radius: 30px;
+	color:white;
+	margin-top: 10px;
+}.row .col-lg-12 .btn:hover{
+	background-color: white;
+	color: #3fbbc0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+	header nav ul li a{
+		padding: 10px 12px !important;
+	}
+	.carousel-item-container{
+		height:450px;
+	}
+	.carousel-item-container .slider-content{
+       width:74%;
+	   left:13%;
+       padding:20px;
+	}
+	.carousel-item-container .slider-content p{
+		display:none;
+	}
+	
+}
+
+@media (max-width:425px){
+   .carousel-inner{
+	margin-top: 125px;
+   }
+   .carousel-item-container{
+	height:200px;
+   }
+   .carousel-control-prev-icon, .carousel-control-next-icon{
+	width:2.5rem;
+	height:2.5rem;
+   }
+   .carousel-control-prev{
+	padding-left:5px; 
+   }
+   .carousel-control-next{
+	padding-right:5px;
+   }
+   .carousel-item-container .slider-content{
+	padding:10px 15px;
+   }
+}
+

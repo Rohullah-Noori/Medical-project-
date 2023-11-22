@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.header .top-header{
+    background-color: hsl(182deg 51% 50%);
+   color: white;
+   padding: 8px 0px;
+    
+}
+   
+.top-header h5{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    padding: 10px 0px;
+}header nav .navbar-brand{
+  width: 22%;
+
+}
+header .navbar .navbar-brand img{
+    height: 44px;
+    
+    
+}header nav ul li a{
+   color:#6b6b6b !important;
+    text-transform: uppercase;
+padding: 20px 12px !important;
+font-size: 14px !important;
+transition:color 1s;
+}header nav ul{
+    
+}
+header nav ul li a:hover{
+    color:#3fbbc0  !important;
+}header nav .btn-apointment{
+    color: white;
+background-color:#3fbbc0!important;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+*/
